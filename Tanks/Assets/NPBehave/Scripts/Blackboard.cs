@@ -46,6 +46,11 @@ namespace NPBehave
             this.clock = clock;
         }
 
+        public Blackboard()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Enable()
         {
             if (this.parentBlackboard != null)

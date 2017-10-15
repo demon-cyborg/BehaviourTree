@@ -10,6 +10,7 @@ public class NPBehaveExampleHelloWorldAI : MonoBehaviour
         behaviorTree = new Root(
             new Action(() => Debug.Log("Hello World!"))
         );
+        
         behaviorTree.Start();
     }
 }

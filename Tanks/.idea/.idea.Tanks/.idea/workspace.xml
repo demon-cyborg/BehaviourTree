@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="111b4d1e-3846-40ad-a597-d09d799af6dc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Behaviours.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+                  <folding>
+                    <marker date="1508083810367" expanded="true" signature="6:68" ph="..." />
+                    <marker date="1508083810367" expanded="true" signature="88:3563" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="95:281" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+                    <marker date="1508083810367" expanded="true" signature="329:3561" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="378:761" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="421:751" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="599:643" ph="/* case 3: ... */" />
+                    <marker date="1508083810367" expanded="true" signature="820:886" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="921:1022" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="1172:1342" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="1428:2396" ph="{...}" />
+                    <marker date="1508083810367" expanded="true" signature="2397:3006" ph="/* private Root HitAndRun() ... */" />
+                    <marker date="1508083810367" expanded="true" signature="3046:3555" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TankMovement.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankMovement.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                  <folding>
+                    <marker date="1507731702484" expanded="true" signature="38:6775" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="86:6773" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="1880:1954" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="1989:2801" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="2250:2580" ph="/* We grab all the Particle systems child of that Tank to be able to Stop/Play them on Deactivate/Activate ... */" />
+                    <marker date="1507731702484" expanded="true" signature="2718:2791" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="2837:3250" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="3167:3240" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="3282:3597" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="3630:4030" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="3715:3828" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="4067:5282" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="4237:4743" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="4400:4729" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="4760:5272" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="4932:5258" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="5320:5461" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="5491:5886" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="5917:6391" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="6431:6581" ph="{...}" />
+                    <marker date="1507731702484" expanded="true" signature="6621:6767" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NavMoveTo.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Task/NavMoveTo.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1507731691136" expanded="true" signature="38:5213" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="74:5211" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="651:1207" ph="/* CAUTION: EXPERIMENTAL !!!! ... */" />
+                    <marker date="1507731691136" expanded="true" signature="651:1445" ph="/// CAUTION: EXPERIMENTAL !!!! ... " />
+                    <marker date="1507731691136" expanded="true" signature="1669:1963" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2006:2334" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2376:2431" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2517:2572" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2610:2665" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2709:4922" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="2810:2901" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="3022:3195" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="3081:3181" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="3235:3310" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="3327:3558" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4142:4398" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4238:4384" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4460:4731" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4542:4717" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4748:4810" ph="{...}" />
+                    <marker date="1507731691136" expanded="true" signature="4972:5205" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TankAI.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-45">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1507731702479" expanded="false" signature="6:68" ph="..." />
+                    <marker date="1507731702479" expanded="true" signature="88:2783" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="95:226" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
+                    <marker date="1507731702479" expanded="true" signature="274:2781" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="1045:1113" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="1176:1670" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="1758:1804" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="1900:2061" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="1939:2001" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="2071:2208" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
+                    <marker date="1507731702479" expanded="true" signature="2251:2304" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="2322:2470" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
+                    <marker date="1507731702479" expanded="true" signature="2513:2566" ph="{...}" />
+                    <marker date="1507731702479" expanded="true" signature="2576:2684" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
+                    <marker date="1507731702479" expanded="true" signature="2724:2774" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NPBehaveExampleHelloWorldAI.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <marker date="1508070402787" expanded="false" signature="6:34" ph="..." />
+                    <marker date="1508070402787" expanded="true" signature="92:296" ph="{...}" />
+                    <marker date="1508070402787" expanded="true" signature="143:294" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="NPBehaveExampleEnemyAI.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleEnemyAI.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+                  <folding>
+                    <marker date="1507731690979" expanded="false" signature="6:34" ph="..." />
+                    <marker date="1507731690979" expanded="true" signature="87:3232" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="173:660" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="700:2633" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="1005:1185" ph="/* check the 'playerDistance' blackboard value. ... */" />
+                    <marker date="1507731690979" expanded="true" signature="1746:2255" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="1828:2055" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="2092:2225" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="2674:2966" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="3019:3105" ph="{...}" />
+                    <marker date="1507731690979" expanded="true" signature="3145:3230" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NPBehaveExampleHelloWorldAI.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <marker date="1508070402787" expanded="false" signature="6:34" ph="..." />
+                    <marker date="1508070402787" expanded="true" signature="92:296" ph="{...}" />
+                    <marker date="1508070402787" expanded="true" signature="143:294" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>playerDistanc</find>
+      <find>black</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Blackboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Task/NavMoveTo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleEnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/NPBehave/Scripts/Blackboard.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tanks (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111b4d1e-3846-40ad-a597-d09d799af6dc" name="Default" comment="" />
+      <created>1508066637580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508066637580</updated>
+      <workItem from="1508066640796" duration="10145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10145000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17892426" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18153365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Task/NavMoveTo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507731691136" expanded="true" signature="38:5213" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="74:5211" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="651:1207" ph="/* CAUTION: EXPERIMENTAL !!!! ... */" />
+            <marker date="1507731691136" expanded="true" signature="651:1445" ph="/// CAUTION: EXPERIMENTAL !!!! ... " />
+            <marker date="1507731691136" expanded="true" signature="1669:1963" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2006:2334" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2376:2431" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2517:2572" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2610:2665" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2709:4922" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="2810:2901" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="3022:3195" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="3081:3181" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="3235:3310" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="3327:3558" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4142:4398" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4238:4384" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4460:4731" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4542:4717" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4748:4810" ph="{...}" />
+            <marker date="1507731691136" expanded="true" signature="4972:5205" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleHelloWorldAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1508070402787" expanded="false" signature="6:34" ph="..." />
+            <marker date="1508070402787" expanded="true" signature="92:296" ph="{...}" />
+            <marker date="1508070402787" expanded="true" signature="143:294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Blackboard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="50" column="55" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="55" />
+          <folding>
+            <marker date="1508072991865" expanded="false" signature="6:52" ph="..." />
+            <marker date="1508072991865" expanded="true" signature="72:10857" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="102:10855" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="133:209" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="245:558" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="418:548" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="1492:1588" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="1627:1721" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="1750:1826" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="1856:2009" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="1913:1999" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2040:2323" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2097:2186" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2222:2313" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2363:2537" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2389:2450" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2466:2527" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2574:2683" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2613:2673" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2734:3682" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2827:2910" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2927:3672" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="2990:3220" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="3241:3658" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="3387:3640" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="3721:3996" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="3775:3986" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4085:4140" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4310:4498" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4390:4452" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4593:4651" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4738:4792" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4829:5012" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="4909:4972" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5051:5386" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5105:5167" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5219:5302" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5319:5376" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5425:5563" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5646:6607" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5782:5942" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5847:5928" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="5959:6597" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6024:6324" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6210:6306" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6493:6583" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6693:7651" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6829:6991" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="6893:6977" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7008:7641" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7191:7380" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7263:7362" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7540:7627" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7703:8114" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7729:8104" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7794:7977" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="7998:8090" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8147:8414" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8173:8404" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8273:8360" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8463:10336" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8515:8567" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8721:8810" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="8951:9752" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="9032:9228" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="9418:9738" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="9573:9651" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="9812:9927" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="9989:10211" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="10088:10197" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="10477:10849" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="10585:10654" ph="{...}" />
+            <marker date="1508072991865" expanded="true" signature="10671:10809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507731702479" expanded="false" signature="6:68" ph="..." />
+            <marker date="1507731702479" expanded="true" signature="88:2783" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="95:226" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
+            <marker date="1507731702479" expanded="true" signature="274:2781" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="1045:1113" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="1176:1670" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="1758:1804" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="1900:2061" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="1939:2001" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="2071:2208" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
+            <marker date="1507731702479" expanded="true" signature="2251:2304" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="2322:2470" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
+            <marker date="1507731702479" expanded="true" signature="2513:2566" ph="{...}" />
+            <marker date="1507731702479" expanded="true" signature="2576:2684" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
+            <marker date="1507731702479" expanded="true" signature="2724:2774" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1507731702484" expanded="true" signature="38:6775" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="86:6773" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="1880:1954" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="1989:2801" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="2250:2580" ph="/* We grab all the Particle systems child of that Tank to be able to Stop/Play them on Deactivate/Activate ... */" />
+            <marker date="1507731702484" expanded="true" signature="2718:2791" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="2837:3250" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="3167:3240" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="3282:3597" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="3630:4030" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="3715:3828" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="4067:5282" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="4237:4743" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="4400:4729" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="4760:5272" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="4932:5258" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="5320:5461" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="5491:5886" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="5917:6391" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="6431:6581" ph="{...}" />
+            <marker date="1507731702484" expanded="true" signature="6621:6767" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Examples/Scripts/NPBehaveExampleEnemyAI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <marker date="1507731690979" expanded="false" signature="6:34" ph="..." />
+            <marker date="1507731690979" expanded="true" signature="87:3232" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="173:660" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="700:2633" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="1005:1185" ph="/* check the 'playerDistance' blackboard value. ... */" />
+            <marker date="1507731690979" expanded="true" signature="1746:2255" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="1828:2055" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="2092:2225" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="2674:2966" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="3019:3105" ph="{...}" />
+            <marker date="1507731690979" expanded="true" signature="3145:3230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="97" column="3" lean-forward="false" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+          <folding>
+            <marker date="1508083810367" expanded="true" signature="6:68" ph="..." />
+            <marker date="1508083810367" expanded="true" signature="88:3563" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="95:281" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1508083810367" expanded="true" signature="329:3561" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="378:761" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="421:751" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="599:643" ph="/* case 3: ... */" />
+            <marker date="1508083810367" expanded="true" signature="820:886" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="921:1022" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="1172:1342" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="1428:2396" ph="{...}" />
+            <marker date="1508083810367" expanded="true" signature="2397:3006" ph="/* private Root HitAndRun() ... */" />
+            <marker date="1508083810367" expanded="true" signature="3046:3555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
