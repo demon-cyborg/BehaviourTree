@@ -1,11 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs" line="161" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d546ea86-d800-4df9-b57b-f399f98645e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_Complete-Game.unity" afterPath="$PROJECT_DIR$/Assets/_Complete-Game.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/AudioClips/sm64_bullet_bill_blaster.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/AudioClips/sm64_camera_spin.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/45/45eb6635d55d89a4aba2c1b3a752bb83" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/45/45eb6635d55d89a4aba2c1b3a752bb83.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/45/45eb6635d55d89a4aba2c1b3a752bb83.resource" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/a8/a864b8face03dd44689c941d5c8c58a6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/a8/a864b8face03dd44689c941d5c8c58a6.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/metadata/a8/a864b8face03dd44689c941d5c8c58a6.resource" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp-Editor-firstpass.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp-Editor.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp-firstpass.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Assembly-CSharp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/BehaviourMachineEditor.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/BehaviourMachineRuntime.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/ExCSS.Unity.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Mono.Cecil.Mdb.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Mono.Cecil.Pdb.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Mono.Cecil.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.CecilTools.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.DataContract.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.Legacy.NRefactory.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.SerializationLogic.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/Unity.UNetWeaver.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Advertisements.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Analytics.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Android.Extensions.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Graphs.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.HoloLens.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Networking.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Purchasing.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.TestRunner.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Timeline.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.TreeEditor.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.UI.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.VR.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Analytics.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.HoloLens.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Networking.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TestRunner.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Timeline.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UI.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/nunit.framework.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/AudioClips/sm64_bullet_bill_blaster.wav.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/AudioClips/sm64_camera_spin.wav.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Advertisements.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Analytics.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.HoloLens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Networking.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Purchasing.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.TestRunner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.Timeline.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.TreeEditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.UI.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.VR.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Analytics.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.HoloLens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Networking.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.TestRunner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.Timeline.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.UI.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/bin/Debug/UnityEngine.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
@@ -14,17 +81,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.dll" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Tanks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Tanks/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs" afterPath="$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,28 +115,29 @@
           <file leaf-file-name="Behaviours.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2568">
-                  <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+                <state relative-caret-position="294">
+                  <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
                   <folding>
-                    <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-                    <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-                    <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-                    <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-                    <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-                    <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+                    <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+                    <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+                    <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+                    <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+                    <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+                    <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -83,25 +146,9 @@
           <file leaf-file-name="TankAI.cs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1827">
-                  <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-                  <folding>
-                    <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-                    <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-                    <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-                    <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-                    <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-                    <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-                    <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-                  </folding>
+                <state relative-caret-position="1554">
+                  <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -113,28 +160,50 @@
           <file leaf-file-name="Behaviours.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="179" column="33" lean-forward="true" selection-start-line="179" selection-start-column="33" selection-end-line="179" selection-end-column="33" />
+                <state relative-caret-position="231">
+                  <caret line="160" column="53" lean-forward="false" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
                   <folding>
-                    <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-                    <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-                    <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-                    <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-                    <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-                    <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-                    <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+                    <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+                    <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+                    <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+                    <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+                    <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+                    <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+                    <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Composite.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Composite/Composite.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding>
+                    <marker date="1507635706443" expanded="true" signature="49:1239" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="99:1237" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="209:501" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="425:491" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="554:723" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="645:713" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="787:889" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="813:879" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="951:1131" ph="{...}" />
+                    <marker date="1507635706443" expanded="true" signature="1006:1086" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -164,9 +233,10 @@
       <find>AddTarget</find>
       <find>m_SpawnPoint</find>
       <find>randomfire</find>
-      <find>turn</find>
       <find>move</find>
       <find>move(</find>
+      <find>turn</find>
+      <find>parallel</find>
       <find>random</find>
     </findStrings>
   </component>
@@ -211,7 +281,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1932" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -230,6 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -246,7 +317,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,11 +452,13 @@
       <workItem from="1508945561251" duration="431000" />
       <workItem from="1509034362410" duration="19510000" />
       <workItem from="1509055507607" duration="2108000" />
+      <workItem from="1509057755849" duration="10019000" />
+      <workItem from="1509102115649" duration="7603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60935000" />
+    <option name="totallyTimeSpent" value="78557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,28 +470,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33069083" sideWeight="0.51557463" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33069083" sideWeight="0.5177802" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33104238" sideWeight="0.5133333" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33069083" sideWeight="0.48442534" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33297414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33069083" sideWeight="0.48221982" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12781955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -446,25 +518,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -487,23 +560,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,25 +576,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -560,23 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -592,25 +634,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -626,23 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,25 +692,26 @@
         <state relative-caret-position="378">
           <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -693,25 +721,26 @@
         <state relative-caret-position="378">
           <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -727,23 +756,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,25 +779,26 @@
         <state relative-caret-position="378">
           <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -800,23 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,25 +830,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -866,23 +865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -897,23 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,25 +896,26 @@
         <state relative-caret-position="399">
           <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1057,61 +1025,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Composite/Composite.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="1554">
+          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/TankAI.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/NPBehave/Scripts/Composite/Composite.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1509035542070" expanded="false" signature="6:68" ph="..." />
-            <marker date="1509035542070" expanded="true" signature="88:3223" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="95:236" ph="/* Script for the Tank AI.  This is partial definition: behaviour trees ... */" />
-            <marker date="1509035542070" expanded="true" signature="284:3221" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1055:1167" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1230:1851" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="1939:2035" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2131:2501" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2170:2345" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2511:2648" ph="/* ACTION: move the tank with a velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2691:2744" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="2762:2910" ph="/* ACTION: turn the tank with angular velocity between -1 and 1. ... */" />
-            <marker date="1509035542070" expanded="true" signature="2953:3006" ph="{...}" />
-            <marker date="1509035542070" expanded="true" signature="3016:3124" ph="/* ACTION: fire a shell with a force between 0 and 1 ... */" />
-            <marker date="1509035542070" expanded="true" signature="3164:3214" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="49:1239" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="99:1237" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="209:501" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="425:491" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="554:723" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="645:713" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="787:889" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="813:879" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="951:1131" ph="{...}" />
+            <marker date="1507635706443" expanded="true" signature="1006:1086" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Completed-Assets/Scripts/Tank/Behaviours.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="179" column="33" lean-forward="true" selection-start-line="179" selection-start-column="33" selection-end-line="179" selection-end-column="33" />
+        <state relative-caret-position="231">
+          <caret line="160" column="53" lean-forward="false" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
           <folding>
-            <marker date="1509057562205" expanded="false" signature="6:433" ph="..." />
-            <marker date="1509057562205" expanded="true" signature="454:13474" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="461:647" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
-            <marker date="1509057562205" expanded="true" signature="695:13472" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="744:1334" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="787:1324" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1021:1192" ph="/* case 4:    //3 ... */" />
-            <marker date="1509057562205" expanded="true" signature="1393:1459" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1494:1595" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="1706:2034" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2183:2353" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="2444:3647" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="3686:4654" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="4685:7798" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="7880:12289" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="10902:12195" ph="/* , ... */" />
-            <marker date="1509057562205" expanded="true" signature="12331:13466" ph="{...}" />
-            <marker date="1509057562205" expanded="true" signature="12659:12784" ph="/* truncates floating point value to one decimal eg &quot;1.0&quot; ... */" />
-            <marker date="1509057562205" expanded="true" signature="13475:14062" ph="/* private void UpdatePerception() { ... */" />
+            <marker date="1509110216362" expanded="false" signature="6:468" ph="..." />
+            <marker date="1509110216362" expanded="true" signature="489:16814" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="496:682" ph="/* Example behaviour trees for the Tank AI.  This is partial definition: ... */" />
+            <marker date="1509110216362" expanded="true" signature="730:16812" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="779:1377" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="822:1367" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1436:1502" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1537:1638" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="1749:2077" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2226:2396" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="2487:3690" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="3729:4697" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="4730:6887" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="5576:5656" ph="/* retreat ... */" />
+            <marker date="1509110216362" expanded="true" signature="6921:9261" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="8065:8116" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="9296:11318" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="10148:10199" ph="/* no ... */" />
+            <marker date="1509110216362" expanded="true" signature="11352:15440" ph="{...}" />
+            <marker date="1509110216362" expanded="true" signature="15481:16806" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -9,6 +9,7 @@ using System.Runtime.Remoting.Messaging;
 using BehaviourMachine;
 using JetBrains.Annotations;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine.AI;
 using Action = NPBehave.Action;
 using Selector = NPBehave.Selector;
@@ -30,17 +31,19 @@ namespace Complete
         {
             switch (m_Behaviour)
             {
-                case 1: //0
+                case 1:
                     return SpinBehaviour(-0.05f, 1f);
-                case 2: //1
+                case 2:
                     return TrackBehaviour();
-                case 3: //2
+                case 3:
                     return FunAi();
-//                
-                //case 4:    //3
-                //  return CowardlyAI();
-                //case 5:    //4
-                //  return unpredictableAI();
+                case 4:
+                    return RandomAI();
+                case 5:
+                    return CowardlyAi();
+                case 6:
+                    return DeadlyAi();
+
 
                 default:
                     return new Root(new Action(
@@ -140,8 +143,149 @@ namespace Complete
             );
         }
 
+        private Root DeadlyAi()
+        {
+            return new Root
+            (
+                new Service(
+                    1f, UpdatePerception,
+                    new Selector(
+                        new BlackboardCondition(
+                            "targetOnRight",
+                            Operator.IS_EQUAL, true,
+                            Stops.IMMEDIATE_RESTART,
+                            new Selector(
+                                new Action(() => Turn(1f)),
+                                new Action(() => Move(0.5f)),
+                                new BlackboardCondition(
+                                    "targetDistance",
+                                    Operator.IS_SMALLER, 10f,
+                                    Stops.IMMEDIATE_RESTART,
+                                    new Selector(
+                                        //retreat
+                                        //new Action(() => Move(-1f)),
+                                        new BlackboardCondition(
+                                            "rearCollision",
+                                            Operator.IS_EQUAL, true, Stops.IMMEDIATE_RESTART,
+                                            new Selector(
+                                                new Action(() => Turn(1f)),
+                                                new Action(() => Move(0.5f)),
+                                                new BlackboardCondition(
+                                                    "CollisionDetect",
+                                                    Operator.IS_EQUAL, true, Stops.IMMEDIATE_RESTART,
+                                                    new Selector(
+                                                        new Action(() => Turn(-1f)),
+                                                        new Action(() => Move(-0.5f)))))),
+                                        new Action(() => Move(-1f))
+                                    )
+                                    ))), //target not on right
+                        new Action(() => Turn(-1f)),
+                        new Action(() => Move(-0.5f))
+                    )));
+        }
+
+//
 
         private Root FunAi()
+        {
+            return new Root
+            (
+                new Service
+                (
+                    1f, UpdatePerception,
+                    new Selector(
+                        new BlackboardCondition(
+                            "CollisionDetect", Operator.IS_EQUAL, false,
+                            Stops.LOWER_PRIORITY_IMMEDIATE_RESTART,
+                            //yes to rearcollision
+                            new Selector(
+                                new BlackboardCondition
+                                ("rearCollision", Operator.IS_EQUAL, false,
+                                    Stops.IMMEDIATE_RESTART,
+                                    new Selector(
+                                        new Action(() => Turn(-1f)),
+                                        new Action(() => Move(1f))
+                                    )
+                                ),
+                                new Selector(
+                                    new Action(() => Move(1f)),
+                                    new Action(() => Turn(-1f)))
+                            )
+
+                            //no
+                            //target in front?
+                        ), new BlackboardCondition("targetDistance", Operator.IS_GREATER, 0.5f,
+                            Stops.IMMEDIATE_RESTART,
+                            new Selector(
+                                //target close?
+                                new BlackboardCondition("targetInFront",
+                                    Operator.IS_EQUAL, true,
+                                    Stops.IMMEDIATE_RESTART,
+                                    new Action(() => Move(-1f)
+                                    )
+                                ), //no
+                                new Action(() => Move(1f)),
+                                new Action(() => Fire(0.2f)
+                                )
+                            )
+                        ),
+                        new BlackboardCondition("targetOnRight", Operator.IS_EQUAL, true,
+                            Stops.IMMEDIATE_RESTART,
+                            new Action(() => Turn(1f)
+                            )
+                            //no to rearcollision
+                        ), new Action(() => Turn(-1f))))
+            );
+        }
+
+        private Root CowardlyAi()
+        {
+            return new Root
+            (
+                new Service
+                (
+                    1f, UpdatePerception,
+                    new Selector(
+                        new BlackboardCondition(
+                            "rearCollision", Operator.IS_EQUAL, true,
+                            Stops.IMMEDIATE_RESTART,
+                            //yes to rearcollision
+                            new Selector(
+                                new BlackboardCondition
+                                ("CollisionDetect", Operator.IS_EQUAL, true,
+                                    Stops.IMMEDIATE_RESTART,
+                                    new Action(() => Turn(UnityEngine.Random.Range(-1f, 1f)))
+                                ),
+                                new Action(() => Move(1f)))
+
+                            //no
+                            //target in front?
+                        ), new BlackboardCondition("targetInFront", Operator.IS_EQUAL, true,
+                            Stops.IMMEDIATE_RESTART,
+                            new Selector(
+                                //target close?
+                                new BlackboardCondition("targetDistance",
+                                    Operator.IS_GREATER,
+                                    2.0f,
+                                    Stops.IMMEDIATE_RESTART,
+                                    new Action(() => Move(-1f)
+                                    )
+                                ), //no
+                                new Action(() => Move(1f)
+                                )
+                            )
+                        ),
+                        new BlackboardCondition("targetOnRight", Operator.IS_EQUAL, true,
+                            Stops.IMMEDIATE_RESTART,
+                            new Action(() => Turn(1f)
+                            )
+                            //no to rearcollision
+                        ), new Action(() => Turn(-1f))))
+            );
+        }
+
+
+        private Root RandomAI()
         {
             return new Root
             (
@@ -153,7 +297,7 @@ namespace Complete
                         new BlackboardCondition
                         (
                             "collisionDetect",
-                            Operator.IS_EQUAL, true,
+                            Operator.IS_GREATER, true,
                             Stops.IMMEDIATE_RESTART,
                             new Selector(
                                 new BlackboardCondition
@@ -161,166 +305,68 @@ namespace Complete
                                     "targetInFront",
                                     Operator.IS_EQUAL, true,
                                     Stops.IMMEDIATE_RESTART,
-                                    new Sequence(
-                                        new Action(() => Turn(-1f)
+                                    new Selector(
+                                        new BlackboardCondition
+                                        (
+                                            "targetOffCentre",
+                                            Operator.IS_SMALLER, 0.9f,
+                                            Stops.IMMEDIATE_RESTART,
+                                            new Selector()
                                         ),
+                                        new Action(() => Fire(1f)),
+                                        new Action(() => Turn(-1f)),
                                         new Action(() => Move(-0.5f)
+                                        )
+                                        , new Sequence(
+                                            new Action(() => Turn(1f)),
+                                            new Action(() => Move(0.5f))
+                                        ),
+                                        new BlackboardCondition
+                                        (
+                                            "targetOffCentre",
+                                            Operator.IS_SMALLER, 0.1f,
+                                            Stops.IMMEDIATE_RESTART,
+                                            new Action(() => Turn(1f)
+                                            )
+                                        ),
+                                        new Action(() => Turn(-1f)
                                         )
                                     )
                                 ),
                                 new BlackboardCondition
                                 (
-                                    "targetOffCentre",
+                                    "targetInFront",
                                     Operator.IS_EQUAL, true,
                                     Stops.IMMEDIATE_RESTART,
-                                    new Action(() => Turn(1f)
+                                    new Selector(
+                                        new BlackboardCondition
+                                        (
+                                            "targetDistance",
+                                            Operator.IS_SMALLER, 15f,
+                                            Stops.IMMEDIATE_RESTART,
+                                            new Selector(
+                                                new Action(() => Move(-1f)),
+                                                new Action(() => Fire(0.01f))
+                                            )
+                                        ),
+                                        new Selector(
+                                            new Action(() => Fire(0.4f)),
+                                            new Action(() => Move(1f))
+                                        )
                                     )
                                 ),
-                                new Action(() => Turn(-1f)
-                                )
-                            )
-                        ),
-                        new BlackboardCondition
-                        (
-                            "targetInFront",
-                            Operator.IS_EQUAL, true,
-                            Stops.IMMEDIATE_RESTART,
-                            new Selector(
                                 new BlackboardCondition
                                 (
-                                    "targetDistance",
-                                    Operator.IS_SMALLER, 10f,
+                                    "targetOnRight",
+                                    Operator.IS_EQUAL, true,
                                     Stops.IMMEDIATE_RESTART,
-                                    new Selector(
-                                        new Action(() => Move(-1f)),
-                                        new Action(() => Fire(0.01f))
-                                    )
-                                ),
-                                new Selector(
-                                    new Action(() => Fire(0.4f)),
-                                    new Action(() => Move(1f))
-                                )
+                                    new Action(() => Turn(1f)))
+                                ,
+                                new Action(() => Turn(-1f))
                             )
-                        ),
-                        new BlackboardCondition
-                        (
-                            "targetOnRight",
-                            Operator.IS_EQUAL, true,
-                            Stops.IMMEDIATE_RESTART,
-                            new Action(() => Turn(1f)))
-                        ,
-                        new Action(() => Turn(-1f))
-                    )
-                )
-            );
-        }
-
-
-        private Root FunEE()
-            //Basic AI template for other variants
-        {
-            return new Root
-                (
-                    new Service
-                    (
-                        0.2f, UpdatePerception,
-                        new Selector
-                        (
-                            new BlackboardCondition
-                            (
-                                //too close, retreat
-                                "targetDistance",
-                                Operator.IS_SMALLER,
-                                10.0f,
-                                Stops.IMMEDIATE_RESTART,
-                                new Action(() => Move(-1.0f)
-                                )
-                            ),
-                            new BlackboardCondition
-                            (
-                                //too far, close in
-                                "targetDistance",
-                                Operator.IS_GREATER_OR_EQUAL,
-                                10.0f,
-                                Stops.IMMEDIATE_RESTART,
-                                new Action(() => Move(0.5f)
-                                )
-                            ),
-                            new BlackboardCondition
-                            (
-                                //too close, retreat
-                                "targetDistance",
-                                Operator.IS_SMALLER,
-                                10.0f,
-                                Stops.IMMEDIATE_RESTART,
-                                new Action(() => Fire(0.2f))
-                            )
-                            ,
-                            new BlackboardCondition
-                            (
-                                "targetOffCentre",
-                                Operator.IS_SMALLER_OR_EQUAL, 0.3f,
-                                Stops.IMMEDIATE_RESTART,
-                                new Action(() => Move(1.0f)
-                                    // Stop turning and fire
-                                )
-                            )
-                            ,
-                            new BlackboardCondition
-                            (
-                                "targetOnRight",
-                                Operator.IS_EQUAL, true,
-                                Stops.IMMEDIATE_RESTART,
-                                // Turn right toward target
-                                new Action(() => Turn(0.3f)
-                                )
-                            )
-                            ,
-                            // Turn left toward target
-                            new BlackboardCondition
-                            (
-                                "targetOnRight",
-                                Operator.IS_EQUAL, false,
-                                Stops.IMMEDIATE_RESTART,
-                                // Turn right toward target
-                                new Action(() => Turn(-0.3f)
-                                )
-                            )
-//                        ,
-//                        new BlackboardCondition
-//                        (
-//                            //too close, retreat
-//                            "targetDistance",
-//                            Operator.IS_SMALLER,
-//                            10.0f,
-//                            Stops.IMMEDIATE_RESTART,
-//                            new Action(() => Move(-1.0f)
-//                            )
-//                        ),
-//                        new BlackboardCondition
-//                        (
-//                            //too far, close in
-//                            "targetDistance",
-//                            Operator.IS_GREATER_OR_EQUAL,
-//                            10.0f,
-//                            Stops.IMMEDIATE_RESTART,
-//                            new Action(() => Move(0.5f)
-//                            )
-//                        ),
-//                        new BlackboardCondition
-//                        (
-//                            //too close, retreat
-//                            "targetDistance",
-//                            Operator.IS_SMALLER,
-//                            10.0f,
-//                            Stops.IMMEDIATE_RESTART,
-//                            new Action(() => Fire(0.2f))
                         )
-                    )
-                )
-                ;
+                    )));
         }
-
 
         private void UpdatePerception()
         {
@@ -330,10 +376,12 @@ namespace Complete
             // based on the coordinates between this tank and target tank
             Vector3 heading = localPos.normalized;
             //truncates floating point value to one decimal eg "1.0"
-//            Vector3 aboveTank = TargetTransform().position(0,1,0);
-            Vector3 collide = transform.TransformDirection(0, 1.5f, 1);
-            //detects object in right, up, forward
+
+            Vector3 collide = transform.TransformDirection(0, 1, 1);
+            Vector3 rearCollide = transform.TransformDirection(0, 1, -1);
+            //detects object in right, up, forward, raycast must be raised to avoid floor collision
             bool collisionDetect = Physics.Raycast(transform.position, collide, 10);
+            bool rearDetect = Physics.Raycast(transform.position, rearCollide, 10);
 
             blackboard["targetDistance"] = localPos.magnitude;
             blackboard["targetInFront"] = heading.z > 0;
@@ -343,21 +391,7 @@ namespace Complete
             blackboard["targetOffCentre"] = Mathf.Abs(heading.x);
             //
             blackboard["CollisionDetect"] = collisionDetect;
+            blackboard["rearCollision"] = rearDetect;
         }
     }
 }
-/*
-private void UpdatePerception() {
-Vector3 targetPos = TargetTransform().position;
-Vector3 localPos = this.transform.InverseTransformPoint(targetPos);
-Vector3 heading = localPos.normalized;
-Vector3 inFront = transform.TransformDirection (Vector3.forward);
-bool objectBlocking = Physics.Raycast (transform.position, inFront, 5);
-            
-blackboard["targetDistance"] = localPos.magnitude;
-blackboard["targetInFront"] = heading.z > 0;
-blackboard["targetOnRight"] = heading.x > 0;
-blackboard["targetOffCentre"] = Mathf.Abs(heading.x);
-blackboard ["objectBlock"] = objectBlocking;
-}
-*/
