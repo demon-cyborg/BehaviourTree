@@ -151,12 +151,14 @@ namespace Complete
                     1f, UpdatePerception,
                     new Selector(
                         new BlackboardCondition(
-                            "targetOnRight",
-                            Operator.IS_EQUAL, true,
+                            "targetOffCentre",
+                            Operator.IS_SMALLER, 45f,
                             Stops.IMMEDIATE_RESTART,
-                            new Selector(
+                            new Sequence(
+                                StopTurning(),
                                 new Action(() => Turn(1f)),
                                 new Action(() => Move(0.5f)),
+                                new Action(() => Fire(0.2f)),
                                 new BlackboardCondition(
                                     "targetDistance",
                                     Operator.IS_SMALLER, 10f,
@@ -170,6 +172,7 @@ namespace Complete
                                             new Selector(
                                                 new Action(() => Turn(1f)),
                                                 new Action(() => Move(0.5f)),
+                                                new Action(() => Fire(0.2f)),
                                                 new BlackboardCondition(
                                                     "CollisionDetect",
                                                     Operator.IS_EQUAL, true, Stops.IMMEDIATE_RESTART,
@@ -178,9 +181,10 @@ namespace Complete
                                                         new Action(() => Move(-0.5f)))))),
                                         new Action(() => Move(-1f))
                                     )
-                                    ))), //target not on right
+                                ))), //target not on right
                         new Action(() => Turn(-1f)),
-                        new Action(() => Move(-0.5f))
+                        new Action(() => Move(-0.5f)),
+                        new Action(() => Fire(0.2f))
                     )));
         }
 
